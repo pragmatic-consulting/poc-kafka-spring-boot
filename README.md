@@ -22,7 +22,7 @@ the topics, replicas and partitions are created with a config class in the app c
 4. run the application with your IDE or : 
 > `mvn spring-boot:run`
 5. test the consumer with : 
-> `POST : http://localhost:9292/api/test`
+> `GET : http://localhost:9292/api/test`
 >> and you'll see a "hello consumer in your console".
 
 ---
